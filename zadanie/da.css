@@ -1,0 +1,68 @@
+.conteiner{
+    display: grid;
+    width: 600px;
+    height: 350px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.object1{
+    height: 180px;
+    background-color: blue;
+    text-align: center;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+.object2{
+    height: 180px;
+    background-color: yellow;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 1;
+}
+.object3{
+    background-color: red;
+    text-align: center;
+    grid-column: 1 ;
+    grid-row: 2;
+}
+.object4{
+    background-color: red;
+    text-align: center;
+    grid-column: 2 ;
+    grid-row: 2;
+}
+.object5{
+    background-color: blue;
+    text-align: center;
+    grid-column: 3 ;
+    grid-row: 2;
+}
+.conteiner_2{
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    width: 550px;
+    
+
+}
+.object_1{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    
+}
+.object_2{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    
+}
+.object_3{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    
+}
